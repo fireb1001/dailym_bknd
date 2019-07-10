@@ -1,0 +1,22 @@
+{
+  "name": "dailym_bknd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sequelize-init": "node ./node_modules/sequelize-cli/lib/sequelize init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.9.4"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "sequelize-cli": "^5.5.0"
+  }
+}
